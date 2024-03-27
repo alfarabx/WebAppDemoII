@@ -1,0 +1,1233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F3F3;
+    font-family: Inter;
+}
+
+/*              Desktop Device              */
+*{          
+/*      Navigasi Atas       */
+*{
+    .NavigasiMenuHeadAtas{
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        z-index: 99999999;
+        width: 100%;
+        height: 100px;
+    }
+    .NavigasiMenu{
+        align-items: center;
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        position: relative;
+        display: flex;
+    }
+    /*      Logo        */
+    .LogoNavigasiMenuAtas{
+        width: 20%;
+        font-weight: 400;
+        margin-top: 6px;
+        font-size: 12px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    /*      Search Bar Atas     */
+    .SearchNavigasiAtas{
+        width: 40%;
+        margin-right: 20px;
+        margin-left: 15%;
+    }
+    .element-search{
+        width: 100%;
+        color: white;
+        border: none;
+    }
+    .search{
+        border: none;
+        background-color: #E9E9E9;
+        color: black;
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        padding-left: 15px;
+    }
+    /*      Nav Notif N Pesan       */
+    .NavNotifPesan{
+        width: 130px;
+        position: relative;
+        display: flex;
+        margin-left: 20%;
+    }
+    .NavNotifPesan img{
+        width: 30px;
+        margin: 10px;
+        padding: 10%;
+    }
+    /*      Profile     */
+    .Profile{
+        width: 5%;
+        margin-left: 8px;
+    }
+    .Profile img{
+        border-radius: 50px;
+        width: 48px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    }
+
+.Desktop{
+    display: block;
+}
+.Mobile{
+    display: none;
+}
+.Badan-Desktop{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.Informasi-Akun{
+    width: 100%;
+}
+.post-feed-mobile{
+    display: none;
+}
+
+/*      Navigasi Samping        */
+
+.Des-Navigasi-Samping{
+    width: 25rem;
+    height: 1000px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    position: relative;
+}
+.Nav-Navigasi-Samping{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 2rem;
+}
+.Nav-Navigasi-Samping-Icon{
+    width: 1.5rem;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    
+}
+.Nav-Navigasi-Samping-Icon img{
+    display: block;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+.Nav-Samping-AktifitasIcon{
+    width: 100%;
+}
+.Nav-Samping-LockIcon{
+    width: 100%;
+}
+.Nav-Samping-SettingIcon{
+    width: 100%;
+}
+.Nav-Navigasi-Samping-TextIcon{
+    width: 85%;
+    position: relative;
+    display: block;
+    justify-content: space-between;
+}
+.Nav-Navigasi-Samping-TextIcon li{
+    padding: 15px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    
+}
+.Nav-Navigasi-Samping-TextIcon li a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+.Nav-Navigasi-Samping-TextIcon li a:hover{
+    color: #00AA01;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*      Informasi Akun      */
+*{
+.Informasi-Akun{
+    width: 80%;
+    background: white;
+    padding: 40px 0px 0px 60px;
+    
+}
+.Profile-menu{
+    width: 100%;
+}
+.isi-profile{
+    width: 100%;
+    display: flex;
+}
+.ProfilePic-User{
+    width: 7rem;
+    margin-right: 2rem;
+    border-radius: 50px;
+}
+.ProfilePic-User img{
+    width: 100px;
+    border-radius: 100px;
+}
+.Username{
+    font-size: 25px;
+    font-weight: 600;
+}
+.Informasi-UserProfile{
+    width: 80rem;
+    display: block;
+}
+.Informasi-UserProfile button{
+    background: grey;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.Informasi-UserProfile button:hover{
+    background: #00AA01;
+}
+.Deskripsi-Profile{
+    width: 40%;
+    margin-top: 10px;
+    display: block;
+}
+}
+
+/*      Display Postingan       */
+*{
+.Display-Postingan{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.Display-Postingan-Box{
+    width: 50rem;
+    height: 1.5px;
+    background: black;
+}
+.Display-Postingan-Frame{
+    display: flex;
+    justify-content: space-between;
+}
+.Display-Postingan-Frame a{
+    text-decoration: none;
+    color: black;
+}
+.Postingan-Menu{
+    display: flex;
+    padding: 20px;
+}
+.Postingan-Menu:hover{
+    color: #00AA01;
+}
+.Postingan-Menu img{
+    margin-right: 10px;
+}
+.Postingan{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.Des-User-Post{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.Post-Konten-Postingan{
+    justify-content: space-between;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background: black;
+}
+.Post-Konten-Postingan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.Des-User-Keranjang{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+}
+.Post-Konten-Keranjang{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.Konten-Keranjang{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Konten-Keranjang-Image{
+    width: 20%;
+    height: auto;
+    
+}
+.Konten-Keranjang-Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center center;
+}
+.Konten-Keranjang-Informasi{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+}
+.Keranjang-Informasi-Judul{
+    width: 80%;
+}
+.Konten-Keranjang-Button{
+    width: 20%;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+.Konten-Keranjang-Button button{
+    width: 6rem;
+    height: 1.4rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    border: none;
+}
+.Konten-Keranjang-Button button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Keranjang-Button-Beli{
+    background: #00AA01;
+    color: white;
+    border: 0px;
+}
+}
+
+
+/*      Produkmu        */
+*{
+.Des-User-Produkmu{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+}
+.Post-Konten-Produkmu{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.Konten-Produkmu{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.Konten-Produkmu-Image{
+    width: 20%;
+    height: auto;
+    
+}
+.Konten-Produkmu-Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center center;
+}
+.Konten-Produkmu-Informasi{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+}
+.Produkmu-Informasi-Judul{
+    width: 80%;
+    display: block;
+    font-size: 18px;
+}
+.Konten-Produkmu-Button{
+    width: 20%;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+}
+.Konten-Produkmu-Button button{
+    width: 6rem;
+    height: 1.4rem;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    border: none;
+}
+.Konten-Produkmu-Button button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Produkmu-Button-Beli{
+    background: #00AA01;
+    color: white;
+    border: 0px;
+}
+}
+
+
+.Des-User-Reels{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Post-Konten-Reels{
+    justify-content: space-between;
+    display: flex;
+    width: 250px;
+    height: 350px;
+    background: #00AA01;
+}
+.Post-Konten-Reels img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+.display-post-feed {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    z-index: 999999999;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.post-feed{
+    width: 100%;
+    background: black;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+}
+.post-feed-image{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center center;
+    display: flex;
+}
+.post-feed-image img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.post-feed-comment{
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+.post-feed-comment-akun{
+    
+    display: flex;
+    align-items: center;
+}
+.post-feed-comment-akun-image{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.post-feed-comment-akun-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+}
+.post-feed-comment-public{
+    margin-top: 40px;
+    display: block;
+}
+.post-feed-comment-public-all{
+    display: flex;
+    margin-bottom: 40px;
+}
+.post-feed-comment-public-KomentarInfo{
+    width: 80%;
+}
+.post-feed-comment-public-username{
+    font-weight: 600;
+}
+.post-feed-comment-public-komentar{
+    font-size: 15px;
+}
+
+
+/*      Reels       */
+.reels-feed-mobile{
+    display: none;
+}
+.display-reels-feed {
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    z-index: 999999999;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.reels-feed{
+    width: 100%;
+    background: black;
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+}
+.reels-feed-image{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center center;
+    display: flex;
+}
+.reels-feed-image video{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.reels-feed-comment{
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+.reels-feed-comment-akun{
+    
+    display: flex;
+    align-items: center;
+}
+.reels-feed-comment-akun-image{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+.reels-feed-comment-akun-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center center;
+}
+.reels-feed-comment-public{
+    margin-top: 40px;
+    display: block;
+}
+.reels-feed-comment-public-all{
+    display: flex;
+    margin-bottom: 40px;
+}
+.reels-feed-comment-public-KomentarInfo{
+    width: 80%;
+}
+.reels-feed-comment-public-username{
+    font-weight: 600;
+}
+.reels-feed-comment-public-komentar{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1366px){
+    .Des-Navigasi-Samping{
+        width: 20rem;
+        height: 1000px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        display: block;
+        position: relative;
+        
+    }
+    .Nav-Navigasi-Samping{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 10%;
+    }
+    .Informasi-Akun{
+        width: 75%;
+        background: white;
+        padding: 40px 0px 0px 60px;
+        
+    }
+    .Nav-Navigasi-Samping-TextIcon{
+        width: 80%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      Mobile Size     */
+*{
+    @media (max-width: 768px){
+    
+        
+    .Profile{
+        display: none;
+    }
+    .Mobile{
+        display: block;
+    }
+    body{
+        background: white;
+    }
+    .Des-Navigasi-Samping{
+        display: none;
+    }
+    
+    .MobileNavigasi{
+        display: flex;
+    }
+    /*      Navigasi Atas       */
+    *{
+    .NavigasiMenuHeadAtas{
+        background-color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        z-index: 0;
+        width: 100%;
+        height: 70px;
+    }
+    .NavigasiMenu{
+        padding-left: 26px;
+        padding-right: 30px;
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+    }
+    /*      Logo        */
+    .LogoNavigasiMenuAtas{
+        width: 10%;
+        font-weight: 400;
+        margin-top: 6px;
+        font-size: 8px;
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+    /*      Search Bar Atas     */
+    .SearchNavigasiAtas{
+        display: none;
+    }
+    
+    /*      Nav Notif N Pesan       */
+    .NavNotifPesan{
+        width: 10%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    .NavNotifPesan img{
+        width: 22px;
+        margin: 0px;
+        padding: 6px;
+    }
+    }
+    /*      MobileNavigasi      */
+*{
+    .MobileNavigasiBox{
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        bottom: 0;
+    }
+    .MobileNavigasiBoxIcon{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    }
+
+    /*      Informasi Akun      */
+*{
+    .Informasi-Akun{
+        width: 100%;
+        height: auto;
+        background: none;
+        margin-top: 20px;
+        padding: 0px;
+        
+    }
+    .Profile-menu{
+        width: 100%;
+        padding: 0px;
+        font-size: 10px;
+    }
+    .User-Profile{
+        margin-left: 3rem;
+        align-items: center;
+    }
+    .isi-profile{
+        width: 100%;
+        display: flex;
+    }
+    .ProfilePic-User{
+        width: 5rem;
+        margin-right: 1rem;
+        border-radius: 50px;
+    }
+    .ProfilePic-User img{
+        width: 100%;
+        border-radius: 100px;
+    }
+    .Username{
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+    }
+    .Informasi-UserProfile{
+        width: 90%;
+        display: block;
+    }
+    .Informasi-UserProfile button{
+        background: #00AA01;
+        color: white;
+        width: 60px;
+        height: 18px;
+        border-radius: 2px;
+        border: none;
+    }
+    .Informasi-UserProfile button:hover{
+        background: grey;
+    }
+    .Deskripsi-Profile{
+        width: 80%;
+        margin-top: 10px;
+        display: block;
+    }
+    }
+    
+    /*      Display Postingan       */
+    
+    .Display-Postingan{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+    }
+    .Display-Postingan-Box{
+        width: 100%;
+        height: 0.5px;
+        background: black;
+    }
+    .Display-Postingan-Frame{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        align-items: center;
+    }
+    .Postingan-Menu{
+        display: block;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Postingan-Menu:hover{
+        color: #00AA01;
+    }
+    .Postingan-Menu img{
+        width: 20px;
+        align-items: center;
+        margin-left: 10px;
+        
+    }
+    .Postingan{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .Des-User-Post{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        padding: 10px;
+    }
+    .Post-Konten-Postingan{
+        justify-content: space-between;
+        display: flex;
+        width: 120px;
+        height: 120px;
+        
+    }
+
+    /*      Keranjang       */
+    *{
+    .Des-User-Keranjang{
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: space-between;
+    }
+    .Post-Konten-Keranjang{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .Konten-Keranjang{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
+    .Konten-Keranjang-Image{
+        width: 30%;
+        height: auto;
+        
+    }
+    .Konten-Keranjang-Image img{
+        width: 100%;
+        height: 5rem;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .Konten-Keranjang-Informasi{
+        width: 100%;
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 10px;
+        display: block;
+    }
+    .Keranjang-Informasi-Judul{
+        width: 100%;
+    }
+    .Konten-Keranjang-Button{
+        width: 60%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    .Konten-Keranjang-Button button{
+        width: 8rem;
+        height: 1.1rem;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        position: relative;
+        border: none;
+        border-radius: 4px;
+    }
+    .Konten-Keranjang-Button button:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .Keranjang-Button-Beli{
+        background: #00AA01;
+        color: white;
+        border: 0px;
+    }
+    }
+
+
+    /*      Produkmu        */
+    *{
+    .Des-User-Produkmu{
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: space-between;
+    }
+    .Post-Konten-Produkmu{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .Konten-Produkmu{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
+    .Konten-Produkmu-Image{
+        width: 30%;
+        height: auto;
+        
+    }
+    .Konten-Produkmu-Image img{
+        width: 100%;
+        height: 5rem;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .Konten-Produkmu-Informasi{
+        width: 100%;
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 10px;
+        display: block;
+    }
+    .Produkmu-Informasi-Judul{
+        width: 100%;
+        font-size: 12px;
+    }
+    .Konten-Produkmu-Button{
+        width: 60%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    .Konten-Produkmu-Button button{
+        width: 8rem;
+        height: 1.1rem;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        position: relative;
+        border: none;
+        border-radius: 4px;
+    }
+    .Konten-Produkmu-Button button:hover{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .Produkmu-Button-Beli{
+        background: #00AA01;
+        color: white;
+        border: 0px;
+    }
+    }
+
+
+
+
+    .Des-User-Reels{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .Des-User-Reels img{
+        width: 100%;
+        height: 180px;
+    }
+    .Post-Konten-Reels{
+        justify-content: space-between;
+        display: flex;
+        width: 120px;
+        height: 120px;
+        
+    }
+
+    /*      Display Post        */
+    .post-feed-mobile{
+        width: 100%;
+        height: 70px;
+        z-index: 0;
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+    }
+    .post-feed-mobile a{
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: black;
+    }
+    .display-post-feed {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .post-feed{
+        width: 100%;
+        background: black;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+    }
+    .post-feed-image{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .post-feed-image img{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .post-feed-comment{
+        width: 100%;
+        padding: 0px;
+        color: white;
+    }
+    .post-feed-comment-akun{
+        display: none;
+        align-items: center;
+        padding: 20px;
+    }
+    .post-feed-comment-akun-image{
+        width: 2.7rem;
+        height: 3rem;
+        margin-right: 1rem;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .post-feed-comment-akun-image img{
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .post-feed-comment-public{
+        margin-top: 20px;
+        padding: 20px;
+        display: block;
+    }
+    .post-feed-comment-public-all{
+        display: flex;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    .post-feed-comment-public-KomentarInfo{
+        width: 80%;
+    }
+    .post-feed-comment-public-username{
+        font-weight: 600;
+    }
+    .post-feed-comment-public-komentar{
+        font-size: 12px;
+    }
+    .post-feed-footer{
+        width: 100%;
+        height: 20px;
+    }
+
+
+    /*      Display Reels        */
+    .reels-feed-mobile{
+        width: 100%;
+        height: 70px;
+        z-index: 0;
+        position: relative;
+        background: white;
+        display: flex;
+        align-items: center;
+    }
+    .reels-feed-mobile a{
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: black;
+    }
+    .display-reels-feed {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    .reels-feed{
+        width: 100%;
+        background: black;
+        height: auto;
+        display: block;
+        border-radius: 0px;
+    }
+    .reels-feed-image{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .reels-feed-image video{
+        width: 100%;
+        align-items: center;
+        border-radius: 0px;
+    }
+    
+    .reels-feed-comment{
+        width: 100%;
+        padding: 0px;
+        color: white;
+    }
+    .reels-feed-comment-akun{
+        display: none;
+        align-items: center;
+        padding: 20px;
+    }
+    .post-feed-comment-akun-image{
+        width: 2.7rem;
+        height: 3rem;
+        margin-right: 1rem;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .reels-feed-comment-akun-image img{
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .reels-feed-comment-public{
+        margin-top: 20px;
+        padding: 20px;
+        display: block;
+    }
+    .reels-feed-comment-public-all{
+        display: flex;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    .reels-feed-comment-public-KomentarInfo{
+        width: 80%;
+    }
+    .reels-feed-comment-public-username{
+        font-weight: 600;
+    }
+    .reels-feed-comment-public-komentar{
+        font-size: 12px;
+    }
+    .reels-feed-footer{
+        width: 100%;
+        height: 20px;
+    }
+    
+
+    
+
+    
+}
+}
